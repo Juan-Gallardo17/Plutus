@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:text="Nombre de la meta"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_nombre_meta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ej: Viaje, Computador, Curso"
+        android:inputType="text"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:text="Monto objetivo ($)"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_monto_objetivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ej: 500000"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:text="Fecha límite (opcional)"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et_fecha_meta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ej: 2026-12-31"
+        android:inputType="text"/>
+
+</LinearLayout>

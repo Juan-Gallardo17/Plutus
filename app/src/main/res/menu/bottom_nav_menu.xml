@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/nav_gastos"
+        android:icon="@drawable/ic_gastos"
+        android:title="Gastos" />
+
+    <item
+        android:id="@+id/nav_metas"
+        android:icon="@drawable/ic_metas"
+        android:title="Metas" />
+
+    <item
+        android:id="@+id/nav_deudas"
+        android:icon="@drawable/ic_deudas"
+        android:title="Deudas" />
+
+</menu>

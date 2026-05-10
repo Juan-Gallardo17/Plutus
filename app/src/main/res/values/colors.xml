@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Colores principales -->
+    <color name="purple_primary">#5340C0</color>
+    <color name="purple_dark">#3C2E9E</color>
+    <color name="purple_light">#7C5CE9</color>
+    <color name="purple_soft">#F4F0FF</color>
+
+    <!-- Colores de estado -->
+    <color name="green_success">#639922</color>
+    <color name="green_light">#EAF3DE</color>
+    <color name="red_danger">#E24B4A</color>
+    <color name="red_light">#FCEBEB</color>
+    <color name="amber_warning">#BA7517</color>
+    <color name="amber_light">#FAEEDA</color>
+
+    <!-- Colores de fondo y texto -->
+    <color name="background">#F6F5FB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#1A2A3A</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_light">#9CA3AF</color>
+    <color name="border">#E5E7EB</color>
 </resources>
